@@ -1,0 +1,268 @@
+{
+  "content":{
+    "en_us":{
+      "subCollection":{
+        "content/en_us/DistrictGuarantees":{
+          "CTECareerSelectPage":{
+            "content":"What do you want to be when you grow up?",
+            "careers" : [
+              {
+                "keySkills":[
+                  "Mathematics","Science","Communication"
+                ],
+                "summary":"By working in education & child development, you have an amazing opportunity to help shape the lives of the kids you teach.",
+                "Title":"Education & Child Development",
+                "subCollection":{}
+              },
+              {
+                "summary":"Don't worry, you can always come back and choose later.","Title":"I'm not sure",
+                "subCollection":{}
+              },
+              {
+                "keySkills":["Mathematics","Science","Communication"],
+                "Title":"Public Services & Transportation",
+                "summary":"Working in public services and transportation can be an extremely rewarding job. You become an integral part of your community's daily life.",
+                "subCollection":{}
+              },
+              {
+                "summary":"People who work in hospitality and food service are responsible for providing comfort to people who otherwise might not be able to find it.",
+                "keySkills":["Mathematics","Science","Communication"],"Title":"Hospitality & Food Service",
+                "subCollection":{}
+              },
+              {
+                "Title":"Agriculture",
+                "keySkills":["Mathematics","Science","Communication"],
+                "summary":"Those with careers in agriculture have dedicated their lives to producing food for our country and the world. The San Joaquin Valley is a global hotspot for this noble profession.",
+                "subCollection":{}
+              },
+              {
+                "keySkills":["Mathematics","Science","Communication"],
+                "summary":"A doctor must be as knowledgeable as they are hardworking. Although their knowledge is critical, the ability to communicate with their patients is usually the true mark of medical success.",
+                "Title ":"Health & Medicine",
+                "subCollection":{}
+              },
+              {
+                "summary":"Engineers create just about everything you use. From your car, to your refrigerator, and yes even your school!",
+                "keySkills":["Mathematics","Science","Communication"],"Title":"Engineering & Architecture",
+                  "subCollection":{}
+              },
+              {
+                "keySkills":["Mathematics","Science","Communication"],
+                "Title":"Building & Construction",
+                "summary":"Building and construction specialists create the building you see around you. They build bridges, homes, and even sky scrapers.",
+                "subCollection":{}
+              },
+              {
+                "keySkills":["Mathematics","Science","Communication"],
+                "Title ":"Arts & Media",
+                "summary":"Entertainers for example, musicians, make music look easy, but playing complex music requires an in-depth knowledge of the math behind music theory, rhythm, and production. Communication is also crucial is also crucial for any good jam. Communication is also crucial for any good jam.",
+                "subCollection":{}
+              },
+              {
+                "summary":"Information technology is a profession which allows you create apps, computers, and anything your heart can think of.",
+                "Title":"Information Technology",
+                "keySkills":["Mathematics","Science","Communication"],
+                "subCollection":{}
+              },
+              {
+                "keySkills":["Mathematics","Science","Communication"],
+                "Title":"Marketing & Sales",
+                "summary":"Everything that gets created needs to be sold by someone and to someone! In sales and marketing, your primary goals is to find the correct product for the correct buyer.",
+                "subCollection":{}
+              }
+            ]
+          },
+          "CTEPage":{
+            "content":"Great choice! You've just taken your first step towards a career in ?. For the next step, we're going to review the resources available to you.",
+            "subCollection":{}
+          },
+          "CTESelect":{
+            "subCollection":{
+              "content/en_us/DistrictGuarantees/CTESelect/Careers":{
+                "8zmvhD6uXfi88jnFkG5x":{
+                  "keySkills":[
+                    "Mathematics","Science","Communication"
+                  ],
+                  "summary":"By working in education & child development, you have an amazing opportunity to help shape the lives of the kids you teach.",
+                  "Title":"Education & Child Development",
+                  "subCollection":{}
+                },
+                "BtrjPy5tIDJZbSAyAUC1":{
+                  "summary":"Don't worry, you can always come back and choose later.","Title":"I'm not sure",
+                  "subCollection":{}
+                },
+                "CVLCeCwuLr34bluJklNd":{
+                  "keySkills":["Mathematics","Science","Communication"],
+                  "Title":"Public Services & Transportation",
+                  "summary":"Working in public services and transportation can be an extremely rewarding job. You become an integral part of your community's daily life.",
+                  "subCollection":{}
+                },
+                "CrW8TcCjKbsOLGC2BqPI":{
+                  "summary":"People who work in hospitality and food service are responsible for providing comfort to people who otherwise might not be able to find it.",
+                  "keySkills":["Mathematics","Science","Communication"],"Title":"Hospitality & Food Service",
+                  "subCollection":{}
+                },
+                "FAXTiEtlAyZX0QYxTVns":{
+                  "Title":"Agriculture",
+                  "keySkills":["Mathematics","Science","Communication"],
+                  "summary":"Those with careers in agriculture have dedicated their lives to producing food for our country and the world. The San Joaquin Valley is a global hotspot for this noble profession.",
+                  "subCollection":{}
+                },
+                "KUrZx9qhN9sLskbS5FAl":{
+                  "keySkills":["Mathematics","Science","Communication"],
+                  "summary":"A doctor must be as knowledgeable as they are hardworking. Although their knowledge is critical, the ability to communicate with their patients is usually the true mark of medical success.",
+                  "Title ":"Health & Medicine",
+                  "subCollection":{}
+                },
+                "SktNViSFuV1jrYBCD5Gs":{
+                  "summary":"Engineers create just about everything you use. From your car, to your refrigerator, and yes even your school!",
+                  "keySkills":["Mathematics","Science","Communication"],"Title":"Engineering & Architecture",
+                    "subCollection":{}
+                },
+                "U9kCCX964VJ7lJaTZeCD":{
+                  "keySkills":["Mathematics","Science","Communication"],
+                  "Title":"Building & Construction",
+                  "summary":"Building and construction specialists create the building you see around you. They build bridges, homes, and even sky scrapers.",
+                  "subCollection":{}
+                },
+                "ioFd8LmZMdlzsUhCqMVq":{
+                  "keySkills":["Mathematics","Science","Communication"],
+                  "Title ":"Arts & Media",
+                  "summary":"Entertainers for example, musicians, make music look easy, but playing complex music requires an in-depth knowledge of the math behind music theory, rhythm, and production. Communication is also crucial is also crucial for any good jam. Communication is also crucial for any good jam.",
+                  "subCollection":{}
+                },
+                "oskKtWOfb2aLcDwelZcf":{
+                  "summary":"Information technology is a profession which allows you create apps, computers, and anything your heart can think of.",
+                  "Title":"Information Technology",
+                  "keySkills":["Mathematics","Science","Communication"],
+                  "subCollection":{}
+                },
+                "xMyOffB4w9YJx3NZLgUk":{
+                  "keySkills":["Mathematics","Science","Communication"],
+                  "Title":"Marketing & Sales",
+                  "summary":"Everything that gets created needs to be sold by someone and to someone! In sales and marketing, your primary goals is to find the correct product for the correct buyer.",
+                  "subCollection":{}
+                }
+              }
+            }
+          }
+        },
+        "content/en_us/MitigatingLearningLoss":{
+          "StudentProgress":{
+            "subCollection":{
+              "content/en_us/MitigatingLearningLoss/StudentProgress/AnalysisPage":{
+                "rQNiemMjc8HC8Qf6sUqh":{
+                  "content":["Let's take a moment to check your performance over time.","Here we go. We did some quick number crunching and identified ? showing possible learning loss.","Let's see the results."],
+                  "subCollection":{}
+                }
+              }
+            }
+          }
+        },
+        "content/en_us/assessments":{
+          "nsgr":{
+            "Text":"Hi welcome to nsgr",
+            "subCollection":{
+              "content/en_us/assessments/nsgr/explore":{
+                "53ba7WabNrTLyUdrhcKL":{
+                  "type":"MultiExplanation",
+                  "content":["Today, we’ll explore the NSGR which stands for Next Step Guided Reading Assessment","The NSGR helps teachers identify your opportunities for growth in reading.","It is broken down into four parts"],
+                  "order":0,
+                  "subCollection":{}
+                },
+                "BZdLRde9g2d97OmwRdoa":{
+                  "type":"StepByStepGuide",
+                  "title":"Reading Assessment Conference",
+                  "content":["This is a one-on-one engagement with a teacher. It helps teachers to give you personal direction on how to improve your reading and comprehension skills."],
+                  "order":4,
+                  "subCollection":{}
+                },
+                "CC2kJUr3uWJOikSBHgas":{
+                  "order":1,
+                  "title":"The Reading-Interest Survey",
+                  "type":"StepByStepGuide",
+                  "content":["This helps your teachers understand what types of books you like to read, and what sort of reading will interest you. This test also allows your teacher to see how you’re growing and changing as a student."],
+                  "subCollection":{}
+                },
+                "nHuBZMfBOd7H1VC52P79":{
+                  "title":"Word-Knowledge Inventory",
+                  "order":"2",
+                  "type":"StepByStepGuide",
+                  "content":["This shows your teachers where you have built your foundation for reading and where are the best areas for you to grow.  It helps the teacher understand which types of books are going to be most approachable to you."],
+                  "subCollection":{}
+                },
+                "qYV4LiBqkUmWpXwEWR12":{
+                  "order":3,
+                  "title":"Comprehension Assessment",
+                  "type":"StepByStepGuide",
+                  "content":["This assessment allows your teacher to discover how well you can comprehend the words you can read. This assessment, like the above, helps teachers to guide you to books which are going to be most helpful to you."],
+                  "subCollection":{}
+                }
+              },
+              "content/en_us/assessments/nsgr/review":{
+                "4HV125lppNFNi1UwgsIM":{
+                  "content":["Let’s review how you did on the NSGR Assessment now.","This year your NSGR level is C.","Based on previous years’ progress, your NSGR reading goal is F."],
+                  "type":"SlideShowChart",
+                  "order":0,
+                  "subCollection":{}
+                }
+              }
+            }
+          },
+          "nwea":{
+            "Text ":"hi welcome to nwea",
+            "subCollection":{
+              "content/en_us/assessments/nwea/explore":{
+                "gGp8TOwr3Sca0rBlVYI9":{
+                  "type":"MultiExplanation",
+                  "order":1,
+                  "content":["Now we will learn about what the NWEA measures.","The NWEA stands for the Northwest Evaluation Association.","This is the organization who runs the MAP assessment students take in the Fall, Winter, and Spring."],
+                  "subCollection":{}
+                }
+              },
+              "content/en_us/assessments/nwea/review":{
+                "1uqzPae1TOHyS47CHDQD":{
+                  "type":"SlideShowChart",
+                  "content":["Let’s review how you did on the NWEA.","This year your NWEA RIT score is 256.","Based on previous years’ progress, your NWEA goal is 252."],
+                  "order":0,
+                  "subCollection":{}
+                }
+              }
+            }
+          },
+          "overview":{
+            "Text":"Hi welcome to metobe",
+            "subCollection":{
+              "content/en_us/assessments/overview/explore":{
+                "q6PdavSoCpaK7R1f1AHH":{
+                  "order":"0",
+                  "type":"SlideShowChart",
+                  "content":["The overview will show you how you’re doing over all. We’re going to walk through each category one by one to see how you’re doing.","Take a minute to review the tutorial on the left"],
+                  "subCollection":{}
+                }
+              },
+              "content/en_us/assessments/overview/review":{
+                "FUZfGxn8adMhcYmokSk3":{
+                  "type":"MultiExplanation",
+                  "content":["Now that we’ve explored what the Overview measures,","let’s review how you did."],
+                  "subCollection":{}
+                }
+              }
+            }
+          },
+          "state assessments":{
+            "Text ":"hi welcome to state assessments",
+            "subCollection":{}
+          }
+        },
+        "content/en_us/welcomepage":{
+          "content":{"text":"Hey there, I'm Hedgehog Henry! I will be walking you through this program so that you understand what all this academic stuff means. Let's begin!",
+            "subCollection":{}
+          }
+        }
+      }
+    },
+    "es_mx":{"subCollection":{}
+    }
+  }
+}

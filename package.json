@@ -1,0 +1,16 @@
+{
+  "name": "export-firestore",
+  "version": "1.0.0",
+  "description": "export data from firebase ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "alejandro morales",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "firebase": "^8.1.2",
+    "firestore-export-import": "^0.9.0"
+  }
+}
