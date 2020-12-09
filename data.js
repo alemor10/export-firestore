@@ -134,26 +134,33 @@ const NSGRExplorePages = [
   {
     "type":"StepByStepGuide",
     "title":"Reading Assessment Conference",
-    "content":["This is a one-on-one engagement with a teacher. It helps teachers to give you personal direction on how to improve your reading and comprehension skills."],
+    "content":"This is a one-on-one engagement with a teacher. It helps teachers to give you personal direction on how to improve your reading and comprehension skills.",
     "order":4,
   },
   {
     "order":1,
     "title":"The Reading-Interest Survey",
     "type":"StepByStepGuide",
-    "content":["This helps your teachers understand what types of books you like to read, and what sort of reading will interest you. This test also allows your teacher to see how you’re growing and changing as a student."],
+    "content":"This helps your teachers understand what types of books you like to read, and what sort of reading will interest you. This test also allows your teacher to see how you’re growing and changing as a student.",
   },
   {
     "title":"Word-Knowledge Inventory",
     "order":2,
     "type":"StepByStepGuide",
-    "content":["This shows your teachers where you have built your foundation for reading and where are the best areas for you to grow.  It helps the teacher understand which types of books are going to be most approachable to you."],
+    "content":"This shows your teachers where you have built your foundation for reading and where are the best areas for you to grow.  It helps the teacher understand which types of books are going to be most approachable to you.",
   },
   {
     "order":3,
     "title":"Comprehension Assessment",
     "type":"StepByStepGuide",
-    "content":["This assessment allows your teacher to discover how well you can comprehend the words you can read. This assessment, like the above, helps teachers to guide you to books which are going to be most helpful to you."],
+    "content":"This assessment allows your teacher to discover how well you can comprehend the words you can read. This assessment, like the above, helps teachers to guide you to books which are going to be most helpful to you.",
+  },
+  {
+    "order": 5,
+    "title": "NSGR Nav",
+    "type": "NavPage",
+    "content": "Does the NSGR seems a little more clear now?",
+    "videoUrl": "http://"
   }
 ]
 exports.NSGRExplorePages = NSGRExplorePages;
@@ -161,7 +168,7 @@ exports.NSGRExplorePages = NSGRExplorePages;
 const NSGRReviewPages = [
   {
     "type":"SlideShowChart",
-    "content":["Let’s review how you did on the NWEA.","This year your NWEA RIT score is 256.","Based on previous years’ progress, your NWEA goal is 252."],
+    "content":["Let’s review how you did on the NSGR Assessment.","This year your NSGR level is ?.","Based on previous years’ progress, your NSGR reading goal is ?.", "Let's watch a video on how you can improve your performance", "To help you achieve your goals, try some level ? books such as: !"],
     "order":0,
   }
 ]
@@ -169,9 +176,21 @@ exports.NSGRReviewPages = NSGRReviewPages;
 
 const NWEAExplorePages = [
   {
-      "order":0,
-      "type":"SlideShowChart",
-      "content":["The overview will show you how you’re doing over all. We’re going to walk through each category one by one to see how you’re doing.","Take a minute to review the tutorial on the left"],
+    "order":0,
+    "type":"MultiExplanation",
+    "content":["Now we will learn about what the NWEA measures","The NWEA stands for Northwest Evaluation Association", "This is the organization who runs the MAP assessment students take in the Fall, Winter, and Spring"],
+  },
+  {
+    order:1,
+    "type":"StepByStepGuide",
+    "title" : "MAP: Measures of Academic Progress",
+    "content": "This is an untimed, personalized assessment given in Reading, Languages, and Math subjects. The results are measured using the RIT Score. Results are usually available immediately following test completion. This means teachers can accurately track their students' growth throughout the school year."
+  },
+  {
+    "order":2,
+    "type": "NavPage",
+    "content": "Do you feel like you have a good grasp on what NWEA is now?",
+    "videoUrl": "http://"
   }
 ]
 exports.NWEAExplorePages = NWEAExplorePages;
@@ -179,9 +198,9 @@ exports.NWEAExplorePages = NWEAExplorePages;
 const NWEAReviewPages = [
   {
     "order":0,
-    "type":"MultiExplanation",
-    "content":["Now that we’ve explored what the Overview measures,","let’s review how you did."],
-  }
+    "type":"SlideShowChart",
+    "content":["Let's review how you did on the NWEA.","This year ytour NWEA RIT score is ?.", "Based on previous years' progress your NWEA goal is ?"],
+  },
 ]
 exports.NWEAReviewPages = NWEAReviewPages;
 
@@ -197,8 +216,51 @@ exports.OverviewExplorePages = OverviewExplorePages;
 const OverviewReviewPages = [
   {
     "type":"MultiExplanation",
-    "content":["Now that we’ve explored what the Overview measures,","let’s review how you did."],
+    "content":["Now that we’ve explored what the Overview measures,","let’s review how you did.","This year your Overview result is ?", "Based on previous years' progress your Overview goal is 87"],
     "order":0
   }
 ]
 exports.OverviewReviewPages = OverviewReviewPages;
+
+const CAASPPExplorePages = [
+  {
+    "order": 0,
+    "type": "MultiExplanation",
+    "content": ["Let's explore what the CAASPP test measures.", "CAASPP is the California Assessment of Student Performance and Progress.", "The purpose of these tests are to assess how well the students are learning and how well the material is being taught.", "CAASPP consists of two tests, the Smarter Balance Assessment and the California Science Tests."]
+  }, 
+  {
+    "order": 1,
+    "type":"StepByStepGuide",
+    "title": "SBA: Smarter Balance Assessments",
+    content:"These are yearly assessments given to see what students have learned usiong the Common Core stands for ELA and Math."
+  },
+  {
+    order: 2,
+    "type":"StepByStepGuide",
+    "title": "CAST: California Science Test",
+    "content": " This tests student knowledge of concepts in the life, earth, space, and physical sciences. This is for students in grades 5 and 8, and is taken once more in grade 10, 11, or 12."
+  },
+  {
+    "order": 3,
+    "type": "StepByStepGuide",
+    "title": "ELPAC: English Language Proficiency Assessment for California",
+    "content": "There are two types of assessments. The inital ELPAC is given to identify the students that are English Learners. The Summative ELPAC is given yearly to determine student's ELP levels. The tests are measured in four parts: listening, speaking, reading, and writing."
+  },
+  {
+    "order": 4,
+    "type": "NavPage",
+    "content": "Do you feel like you understand what the State Assessments test measure?",
+    "videoUrl" : "http://"
+  }
+]
+exports.CAASPPExplorePages = CAASPPExplorePages;
+
+const CAASPPReviewPages = [
+  {
+    "order":0,
+    "type":"SlideShowChart",
+    "content":["Let's review how you did on the CAASPP test", "This year your CAASPP scale score is ?", "Based on previous years' progress, your CAASPP goal is ?",],
+  }
+]
+
+exports.CAASPPReviewPages = CAASPPReviewPages;
