@@ -11,6 +11,18 @@
  * query is now fb.(*lang).(placeinApp).(page)
  */
 
+const JourneySection = [
+  {
+    pageID : 'Intro', 
+    content : ["Now that we've reviews your progress,", "Now that we've reviewed your progress, we're going to set goals for this session","You will explore the assessments and review your performance"]
+  },
+  {
+    pageID : 'JourneyMap',
+    content : ["We've identified the most important assessments for you.", "Together, we'll explore and review each of them"]
+  }
+]
+exports.JourneySection = JourneySection;
+
 const CTESection = [
   {
     pageID: 'CTESelect',
@@ -264,3 +276,39 @@ const CAASPPReviewPages = [
 ]
 
 exports.CAASPPReviewPages = CAASPPReviewPages;
+
+const DisciplineExplorePages = [
+  {
+    "order": 0, 
+    "type": "MultiExplanation"
+  }
+]
+
+exports.DisciplineExplorePages = DisciplineExplorePages;
+
+const DisciplineReviewPages = [
+  {
+    "order": 0,
+    "type": "SlideShowChart"
+  }
+]
+
+exports.DisciplineReviewPages = DisciplineReviewPages;
+
+
+const GradesExplorePages = [
+  {
+    "order": 0,
+    "type": "MultiExplanation"
+  }
+]
+
+exports.GradesExplorePages = GradesExplorePages;
+
+const GradesReviewPages = [
+  {
+    "order": 0,
+    "type": "SlideShowChart"
+  }
+]
+exports.GradesReviewPages = GradesReviewPages;

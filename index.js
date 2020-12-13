@@ -59,6 +59,8 @@ function uploadAssessmentToDatabase(assessmentName,ExploreOrReview , array) {
     })
 }
 
+uploadSectionToDatabase('JourneySection', data.JourneySection);
+
 //uploadSectionToDatabase('CTESelection', data.CTESection);
 
 //uploadSectionToDatabase('StudentPerformanceSection', data.StudentPerformanceSection);
@@ -66,19 +68,26 @@ function uploadAssessmentToDatabase(assessmentName,ExploreOrReview , array) {
 
 
 // NSGR 
-uploadAssessmentToDatabase('nsgr','explore',data.NSGRExplorePages);
-uploadAssessmentToDatabase('nsgr','review', data.NSGRReviewPages);
+// uploadAssessmentToDatabase('nsgr','explore',data.NSGRExplorePages);
+// uploadAssessmentToDatabase('nsgr','review', data.NSGRReviewPages);
 
 
 // NWEA 
-uploadAssessmentToDatabase('nwea','explore', data.NWEAExplorePages);
-uploadAssessmentToDatabase('nwea','review', data.NWEAReviewPages);
+// uploadAssessmentToDatabase('nwea','explore', data.NWEAExplorePages);
+// uploadAssessmentToDatabase('nwea','review', data.NWEAReviewPages);
 
 // Overview 
-uploadAssessmentToDatabase('overview','explore',data.OverviewExplorePages);
-uploadAssessmentToDatabase('overview', 'review', data.OverviewReviewPages);
+// uploadAssessmentToDatabase('overview','explore',data.OverviewExplorePages);
+// uploadAssessmentToDatabase('overview', 'review', data.OverviewReviewPages);
 
 
 // CAASPP
-uploadAssessmentToDatabase('caaspp','explore',data.CAASPPExplorePages);
-uploadAssessmentToDatabase('caaspp', 'review', data.CAASPPReviewPages);
+// uploadAssessmentToDatabase('sbac','explore',data.CAASPPExplorePages);
+// uploadAssessmentToDatabase('sbac', 'review', data.CAASPPReviewPages);
+
+// Discipline
+// uploadAssessmentToDatabase('discipline','explore',data.DisciplineExplorePages);
+// uploadAssessmentToDatabase('discipline', 'review', data.DisciplineReviewPages);
+// Grade
+// uploadAssessmentToDatabase('grades', 'explore', data.GradesExplorePages);
+// uploadAssessmentToDatabase('grades', 'review', data.GradesReviewPages);
