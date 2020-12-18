@@ -59,7 +59,11 @@ function uploadAssessmentToDatabase(assessmentName,ExploreOrReview , array) {
     })
 }
 
-uploadSectionToDatabase('JourneySection', data.JourneySection);
+uploadSectionToDatabase('MitigatingLearningLossSection', data.MitigatingLearningLossSection);
+
+// uploadSectionToDatabase('DistrictGuaranteesSection', data.DistrictGuaranteesSection);
+
+// uploadSectionToDatabase('JourneySection', data.JourneySection);
 
 //uploadSectionToDatabase('CTESelection', data.CTESection);
 

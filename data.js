@@ -4,17 +4,123 @@
  * {
  *  pageID : String this is used to create the document name based on this property to help us query later
  *  title: String 
- *  content: String | [Strings]
- *  rest can be unique properties.
+ *  content: String | [Strings] | null
+ *  rest can be unique properties to each page
  * }
  * 
  * query is now fb.(*lang).(placeinApp).(page)
  */
 
+
+const DistrictGuaranteesSection = [
+  {
+    pageID: 'DistrictGuaranteesIntro',
+    content: ["Madera Unified has a network of people to help you on your journey including some you do not know about, ?", "You probably already know your teacher, counselor, principal, and vice principal.","But there's also your Student Adcocate, Resource Specialist, and Program Teacher.", "In addition, Madera Unified provides your teacher with the resources they need to help you get the best education possible"]
+  },
+  {
+    pageID: 'DistrictGuaranteesOutro',
+    content: ["These resources are here to help you meet your goals.","Throughout this process, we will review your academic progress together."]
+  }
+]
+exports.DistrictGuaranteesSection = DistrictGuaranteesSection;
+
+const MitigatingLearningLossSection = [
+  {
+    pageID: 'Analysis',
+    content: ["Let's take a moment to check your performance over time.", "Here we go. We did some quick number crunching and identified ?", "Let's see the results"]
+  },
+  {
+    pageID: 'Recommendations',
+    content: {
+      title: 'Recommendations for Accelerated Learning',
+      subtitle: 'These recommendations for Accelerated Learning are backed up by research',
+      recommendations : [
+        {
+          order: 1,
+          content : "Put the most important skills and knowledge first."
+        },
+        {
+          order: 2,
+          content : "Plan your approach to spotting a student's unfinished learning.",
+        },
+        {
+          order: 3,
+          content : "Change what and how content is taught."
+        },
+        {
+          order: 4,
+          content : "Provide help for teachers and school leaders."
+        },
+        {
+          order: 5,
+          content : "Track a student's progress"
+        }
+      ],
+      recommendationsPages: [
+        {
+          order: 0,
+          title: 'Prioritize the most critical prerequisite skills and content knowledge for each subject area and grade level now',
+          content: 'Understanding the demands of grade-level materials in content. To begin this process, study the standards alongside year-long scopes and sequences to understand what standards and topics will be covered when, how students will apply their knowledge of the standards, and how they will show that knowledge. Identifying the most critical prerequiste skills and content knowledge students will need to access that grade-level content when they encounter it throughout the year.',
+        },
+        {
+          order: 1,
+          title: "Plan your approach to diagnosing a student's unfinished learning the prioritized prerequisite content knowledge and skills.",
+          content: "Systems should replace the reading and math tests that were cancelled this spring with a no-stakes diagnostic assessment that gives them quick, accessible information about what their students know about their prioritized content knowledge and skills - and then leverage the coherence and clarity of rigorous academic standards to determine, given where students are starting, how they'll finish the most important unfinished learning."
+        },
+        {
+          order: 2,
+          title: "Adapt the scope and sequence/pacing guidance for each subject area and grade-level to reflect where teacher might need to provide acceleration support.",
+          content: "The district should adjust the instructional materials and guidance for teachers to support them in thinking about how they can address unfinished learning without an extended period of remedial content at the start of the school year."
+        },
+        {
+          order: 3,
+          title: "Provide additional training for teachers and leaders to diagnose a student's unfinished learning and provide acceleration support.",
+          content: "Once the district has articulated a clear strategy, they will need to introduce it to teachers and leaders, ensuring thay they understand the knowledge and skills they should prioritize in their grade level and subject area, the approach to diagnosing unfinished learning."
+        },
+        {
+          order: 4,
+          title: "Monitor a student's progress on grade-appropriate assignments and adjust supports for teachers and leaders based on student results.",
+          content: "Throughout the school year, you should monitor the progress made toward mastering grade-level content, and whether your teachers and leaders are executing the accelerating learning strategies."          
+        }
+      ],
+      quote: "'Accelerated learning requires that students consistently receive grade-level materials, tasks, and assignments, along with appropriate scaffolds that make the work accessible. More specifically, instead of sending students backwards to fill-in all the potential gaps in their learning, leaders, and teachers should focus on filing in only the most critical gaps -- and not in isolation, but at the moment they're needed.' -TNTP"
+    }
+  },
+  {
+    pageID: 'Survey',
+    title: "Accelerated Learning Survey",
+    subtitle: "Please take some time and fill out the survey below your response will be greatly appreciated. For each question select a number 1 through 5 with 1 being Strongly Disagree and 5 being Strongly Disagree.",
+    bottomtext: "Thank you for taking the time to complete the survey. Please click on the submit button below.",
+    questions: [
+      {
+        order: 1,
+        content: "Do you feel your school prioritized the most critical prerequisite skills and knowledge to address learning loss?"
+      },
+      {
+        order: 2,
+        content : "Do you feel that your school's performance in planning and developing an approach to diagnosing a student's unfinished learning was adequate?"
+      },
+      {
+        order: 3,
+        content : "Do you feel your school's response at adapting the scope and sequence/pacing of what's being taught this school year was adequate?"
+      },
+      { 
+        order: 4,
+        content : "Do you feel like the additional trainings teachers and leaders received to accelerate learning were satisfactory?"
+      },
+      {
+        order: 5,
+        content : "Do you feel like your school's performance in monitoring a student's progress and quickly addressing critical learning gaps when needed were ssatisfactory"
+      }
+    ]
+  }
+]
+exports.MitigatingLearningLossSection = MitigatingLearningLossSection;
+
 const JourneySection = [
   {
     pageID : 'Intro', 
-    content : ["Now that we've reviews your progress,", "Now that we've reviewed your progress, we're going to set goals for this session","You will explore the assessments and review your performance"]
+    content : ["Now that we've reviewed your progress, we're going to set goals for this session","Together we will explore the assessments and review your performance"]
   },
   {
     pageID : 'JourneyMap',
