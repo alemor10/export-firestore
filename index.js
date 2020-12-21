@@ -59,6 +59,8 @@ function uploadAssessmentToDatabase(assessmentName,ExploreOrReview , array) {
     })
 }
 
+// uploadSectionToDatabase( 'YourProgressSection', data.YourProgressSection );
+
 uploadSectionToDatabase('MitigatingLearningLossSection', data.MitigatingLearningLossSection);
 
 // uploadSectionToDatabase('DistrictGuaranteesSection', data.DistrictGuaranteesSection);

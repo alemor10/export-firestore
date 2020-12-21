@@ -11,6 +11,19 @@
  * query is now fb.(*lang).(placeinApp).(page)
  */
 
+const YourProgressSection = [
+  {
+    pageID: 'Badges',
+    content: [
+      'We measure your progress with badges',
+      'These badges help us simplify your scores. Each badge shows your progress towards Grade Level Readiness.',
+      'Because of the way some assessments are measured, not every assessment will utilize every badge.',
+      'Two of the most important things we measure are your progress in English (ELA) and your progress in Math.'
+    ]
+  }
+]
+
+exports.YourProgressSection = YourProgressSection;
 
 const DistrictGuaranteesSection = [
   {
@@ -36,49 +49,54 @@ const MitigatingLearningLossSection = [
       subtitle: 'These recommendations for Accelerated Learning are backed up by research',
       recommendations : [
         {
+          order: 0,
+          content : "1. Put the most important skills and knowledge first."
+        },
+        {
           order: 1,
-          content : "Put the most important skills and knowledge first."
+          content : "2. Plan your approach to spotting a student's unfinished learning.",
         },
         {
           order: 2,
-          content : "Plan your approach to spotting a student's unfinished learning.",
+          content : "3. Change what and how content is taught."
         },
         {
           order: 3,
-          content : "Change what and how content is taught."
+          content : "4. Provide help for teachers and school leaders."
         },
         {
           order: 4,
-          content : "Provide help for teachers and school leaders."
-        },
-        {
-          order: 5,
-          content : "Track a student's progress"
+          content : "5. Track a student's progress"
         }
       ],
       recommendationsPages: [
         {
           order: 0,
+          color: '#EBA133',
           title: 'Prioritize the most critical prerequisite skills and content knowledge for each subject area and grade level now',
           content: 'Understanding the demands of grade-level materials in content. To begin this process, study the standards alongside year-long scopes and sequences to understand what standards and topics will be covered when, how students will apply their knowledge of the standards, and how they will show that knowledge. Identifying the most critical prerequiste skills and content knowledge students will need to access that grade-level content when they encounter it throughout the year.',
         },
         {
           order: 1,
+          color : "#2E8EE6",
           title: "Plan your approach to diagnosing a student's unfinished learning the prioritized prerequisite content knowledge and skills.",
           content: "Systems should replace the reading and math tests that were cancelled this spring with a no-stakes diagnostic assessment that gives them quick, accessible information about what their students know about their prioritized content knowledge and skills - and then leverage the coherence and clarity of rigorous academic standards to determine, given where students are starting, how they'll finish the most important unfinished learning."
         },
         {
           order: 2,
+          color : "#49A947",
           title: "Adapt the scope and sequence/pacing guidance for each subject area and grade-level to reflect where teacher might need to provide acceleration support.",
           content: "The district should adjust the instructional materials and guidance for teachers to support them in thinking about how they can address unfinished learning without an extended period of remedial content at the start of the school year."
         },
         {
           order: 3,
+          color: "EDDB3B",
           title: "Provide additional training for teachers and leaders to diagnose a student's unfinished learning and provide acceleration support.",
           content: "Once the district has articulated a clear strategy, they will need to introduce it to teachers and leaders, ensuring thay they understand the knowledge and skills they should prioritize in their grade level and subject area, the approach to diagnosing unfinished learning."
         },
         {
           order: 4,
+          color: 	"#FF1493",
           title: "Monitor a student's progress on grade-appropriate assignments and adjust supports for teachers and leaders based on student results.",
           content: "Throughout the school year, you should monitor the progress made toward mastering grade-level content, and whether your teachers and leaders are executing the accelerating learning strategies."          
         }
@@ -89,27 +107,26 @@ const MitigatingLearningLossSection = [
   {
     pageID: 'Survey',
     title: "Accelerated Learning Survey",
-    subtitle: "Please take some time and fill out the survey below your response will be greatly appreciated. For each question select a number 1 through 5 with 1 being Strongly Disagree and 5 being Strongly Disagree.",
-    bottomtext: "Thank you for taking the time to complete the survey. Please click on the submit button below.",
+    subtitle: "Please take some time and fill out the survey below your response will be greatly appreciated. For each question select a number 1 through 5 with 1 being Strongly Disagree and 5 being Strongly Disagree. Please click on the submit button below when you complete the survey and thank you for taking the time to complete the survey.",
     questions: [
       {
-        order: 1,
+        order: 0,
         content: "Do you feel your school prioritized the most critical prerequisite skills and knowledge to address learning loss?"
       },
       {
-        order: 2,
+        order: 1,
         content : "Do you feel that your school's performance in planning and developing an approach to diagnosing a student's unfinished learning was adequate?"
       },
       {
-        order: 3,
+        order: 2,
         content : "Do you feel your school's response at adapting the scope and sequence/pacing of what's being taught this school year was adequate?"
       },
       { 
-        order: 4,
+        order: 3,
         content : "Do you feel like the additional trainings teachers and leaders received to accelerate learning were satisfactory?"
       },
       {
-        order: 5,
+        order: 4,
         content : "Do you feel like your school's performance in monitoring a student's progress and quickly addressing critical learning gaps when needed were ssatisfactory"
       }
     ]
@@ -250,7 +267,7 @@ const NSGRExplorePages = [
     "order":0,
   },
   {
-    "type":"StepByStepGuide",
+    "type":"MultiStep",
     "title":"Reading Assessment Conference",
     "content":"This is a one-on-one engagement with a teacher. It helps teachers to give you personal direction on how to improve your reading and comprehension skills.",
     "order":4,
@@ -258,19 +275,19 @@ const NSGRExplorePages = [
   {
     "order":1,
     "title":"The Reading-Interest Survey",
-    "type":"StepByStepGuide",
+    "type":"MultiStep",
     "content":"This helps your teachers understand what types of books you like to read, and what sort of reading will interest you. This test also allows your teacher to see how you’re growing and changing as a student.",
   },
   {
     "title":"Word-Knowledge Inventory",
     "order":2,
-    "type":"StepByStepGuide",
+    "type":"MultiStep",
     "content":"This shows your teachers where you have built your foundation for reading and where are the best areas for you to grow.  It helps the teacher understand which types of books are going to be most approachable to you.",
   },
   {
     "order":3,
     "title":"Comprehension Assessment",
-    "type":"StepByStepGuide",
+    "type":"MultiStep",
     "content":"This assessment allows your teacher to discover how well you can comprehend the words you can read. This assessment, like the above, helps teachers to guide you to books which are going to be most helpful to you.",
   },
   {
@@ -300,7 +317,7 @@ const NWEAExplorePages = [
   },
   {
     order:1,
-    "type":"StepByStepGuide",
+    "type":"MultiStep",
     "title" : "MAP: Measures of Academic Progress",
     "content": "This is an untimed, personalized assessment given in Reading, Languages, and Math subjects. The results are measured using the RIT Score. Results are usually available immediately following test completion. This means teachers can accurately track their students' growth throughout the school year."
   },
@@ -348,19 +365,19 @@ const CAASPPExplorePages = [
   }, 
   {
     "order": 1,
-    "type":"StepByStepGuide",
+    "type":"MultiStep",
     "title": "SBA: Smarter Balance Assessments",
     content:"These are yearly assessments given to see what students have learned usiong the Common Core stands for ELA and Math."
   },
   {
     order: 2,
-    "type":"StepByStepGuide",
+    "type":"MultiStep",
     "title": "CAST: California Science Test",
     "content": " This tests student knowledge of concepts in the life, earth, space, and physical sciences. This is for students in grades 5 and 8, and is taken once more in grade 10, 11, or 12."
   },
   {
     "order": 3,
-    "type": "StepByStepGuide",
+    "type": "MultiStep",
     "title": "ELPAC: English Language Proficiency Assessment for California",
     "content": "There are two types of assessments. The inital ELPAC is given to identify the students that are English Learners. The Summative ELPAC is given yearly to determine student's ELP levels. The tests are measured in four parts: listening, speaking, reading, and writing."
   },
